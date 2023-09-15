@@ -1,0 +1,72 @@
+/* Internal CSS styles for this page */
+/* Define styles for h1 */
+h1 {
+    color: teal;
+    text-align: center;
+    font-size: 44px;
+}
+/* Define styles for calculator container */
+#calculator {
+    width: 270px;
+    height: 500px;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    height: 350px;
+    margin-top: 60px;
+    padding: 40px;
+    background-color:rgb(231, 210, 210);
+}
+/* Define styles for display */
+#display {
+    width: 240px;
+    margin: auto;
+    height: 60px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 7px;
+    font-size: 22px;
+    font-weight: bold;
+    display: grid;
+    justify-content: right;
+    align-items: center;
+    padding: 0px 10px;
+    border: none;
+    outline: none;
+    text-align: right;
+    pointer-events: none;
+}
+/* Define styles for keyboard */
+#keyboard {
+    width: 260px;
+    margin: auto;
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 60px);
+    gap: 7px;
+}
+/* Define styles for calculator buttons */
+#keyboard>div {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+/* Define styles for button hover effect */
+#keyboard>div:hover {
+    background-color: teal;
+    color: white;
+    cursor: pointer;
+}
+/* Define styles for black buttons */
+.black {
+    background-color: black;
+    color: white;
+}
+/* Define styles for red buttons */
+.red {
+    background-color: red;
+    color: white;
+}

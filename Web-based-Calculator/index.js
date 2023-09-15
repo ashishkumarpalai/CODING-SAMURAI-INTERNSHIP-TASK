@@ -1,4 +1,4 @@
-// Wait for the DOM to be fully loaded
+// Wait for the DOM to be fully  loaded
 document.addEventListener("DOMContentLoaded", function () {
     // Select calculator keys and display element
     let keys = document.querySelectorAll("#keyboard > div");

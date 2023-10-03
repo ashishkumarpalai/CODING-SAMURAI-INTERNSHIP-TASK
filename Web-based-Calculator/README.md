@@ -16,6 +16,8 @@ This calculator app allows you to perform addition, subtraction, multiplication,
 
 ## Getting Started
 
+![Screenshot (698)](https://github.com/ashishkumarpalai/CODING-SAMURAI-INTERNSHIP-TASK/assets/112760336/310ff303-0404-4f19-bd80-5bed701f0210)
+
 ### Prerequisites
 
 Before using this calculator app, ensure you have the following:

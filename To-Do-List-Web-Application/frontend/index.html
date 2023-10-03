@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List Web Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>To-Do List</h1>
+        <div class="task-form">
+            <input type="text" id="task" placeholder="Add a new task">
+            <select id="priority">
+                <option value="high">High</option>
+                <option value="medium">Medium</option>
+                <option value="low">Low</option>
+            </select>
+            <button onclick="addTask()">Add</button>
+        </div>
+        <br>
+        <div class="task-list">
+            <div class="filter">
+                <label for="filterStatus">Filter by Status:</label>
+                <select id="filterStatus" onchange="filterTasks()">
+                    <option value="all">All</option>
+                    <option value="completed">Completed</option>
+                    <option value="pending">Pending</option>
+                </select>
+                <label for="sort">Sort by:</label>
+                <select id="sort" onchange="sortTasks()">
+                    <option value="priority">Priority</option>
+                    <option value="duedate">Due Date</option>
+                </select>
+            </div>
+            <ul id="tasks"></ul>
+        </div>
+    </div>
+</body>
+
+</html>
+<script src="index.js"></script>

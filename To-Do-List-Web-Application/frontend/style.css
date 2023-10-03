@@ -1,0 +1,264 @@
+/* CSS for basic styling */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('your-background-image.jpg');
+    /* Replace with your background image URL */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 100px auto;
+    padding: 30px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    /* Add background color with transparency */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    /* Add a subtle box shadow */
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #333;
+    /* Change text color */
+}
+
+.task-form input,
+.task-form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.task-form button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    /* Change button background color */
+    color: #fff;
+    /* Change button text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.task-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.task-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+    background-color: rgba(255, 255, 255, 0.9);
+    /* Add background color with transparency */
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    /* Add a subtle box shadow */
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #999;
+}
+
+/* Media query for responsiveness */
+@media screen and (max-width: 600px) {
+    .container {
+        max-width: 100%;
+        padding: 10px;
+    }
+
+    .task-form input,
+    .task-form select {
+        width: 100%;
+        padding: 5px;
+    }
+
+    .task-list li {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+/* ... Previous CSS styles ... */
+
+/* Styling for the table */
+.task-list ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.task-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ccc;
+    transition: background-color 0.3s ease;
+    /* Add animation for background color */
+}
+
+.task-list li:hover {
+    background-color: #f0f0f0;
+    /* Change background color on hover */
+}
+
+/* Animation for table rows */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.task-list li {
+    animation: fadeIn 0.5s ease;
+    /* Apply fade-in animation */
+}
+
+/* ... Rest of the CSS ... */
+
+/* Additional CSS for responsiveness at smaller screens */
+@media screen and (max-width: 600px) {
+    .task-list li {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+/* ... Previous CSS styles ... */
+
+.task-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ccc;
+    transition: background-color 0.3s ease;
+    flex-wrap: wrap;
+    /* Allow items to wrap to the next line */
+}
+
+/* Add a container for the buttons to control alignment */
+.task-list li .buttons-container {
+    display: flex;
+    gap: 10px;
+    /* Adjust the spacing between buttons */
+    align-items: center;
+    /* Vertically align buttons */
+}
+
+.task-list li .buttons-container button {
+    padding: 5px 10px;
+}
+
+.task-list li:hover {
+    background-color: #f0f0f0;
+}
+
+.task-list ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.task-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 15px 0;
+    /* Remove horizontal padding */
+    border-bottom: 1px solid #ccc;
+    transition: background-color 0.3s ease;
+}
+
+.task-list li .buttons-container {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.task-list li .buttons-container button {
+    padding: 5px 10px;
+}
+
+.task-list li:hover {
+    background-color: #f0f0f0;
+}
+
+/* Set fixed widths for columns */
+.task-list li span {
+    flex: 1;
+    padding: 0 20px;
+    /* Add horizontal padding to text columns */
+    min-width: 150px;
+    /* Set a minimum width for text columns */
+}
+
+.task-list li .buttons-container {
+    min-width: 150px;
+    /* Set a minimum width for the buttons container */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    animation: backgroundAnimation 10s linear infinite;
+    /* Animation for background color */
+}
+
+/* CSS animation for background color */
+@keyframes backgroundAnimation {
+    0% {
+        background-color: rgba(255, 0, 0, 0.8);
+        /* Red */
+    }
+
+    25% {
+        background-color: rgba(0, 255, 0, 0.8);
+        /* Green */
+    }
+
+    50% {
+        background-color: rgba(0, 0, 255, 0.8);
+        /* Blue */
+    }
+
+    75% {
+        background-color: rgba(255, 255, 0, 0.8);
+        /* Yellow */
+    }
+
+    100% {
+        background-color: rgba(255, 0, 255, 0.8);
+        /* Magenta */
+    }
+}

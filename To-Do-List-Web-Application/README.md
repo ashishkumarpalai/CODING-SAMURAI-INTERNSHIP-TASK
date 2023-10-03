@@ -6,6 +6,8 @@ Exciting News! I've completed my To-Do List Web Application project, and I'm thr
 
 I've developed a user-friendly web-based to-do list application that lets you manage tasks effortlessly and stay organized. This project was an incredible learning journey in web development, involving HTML, CSS, JavaScript, and the potential use of Node.js for the backend. Here's what you can expect from the project:
 
+![Screenshot (706)](https://github.com/ashishkumarpalai/CODING-SAMURAI-INTERNSHIP-TASK/assets/112760336/48b5381c-6745-47ff-bd15-f2a35608a777)
+
 ## Key Features 🌟
 
 - **Task Management:** Easily add, edit, and delete tasks on your to-do list.

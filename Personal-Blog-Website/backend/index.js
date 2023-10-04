@@ -17,7 +17,8 @@ app.use(cors())
 // Define a basic route for the root endpoint
 app.get("/", async (req, res) => {
     try {
-        await res.send("wellcome to Blog app backend")
+        // await res.send("wellcome to Blog app backend")
+        await res.send(`<h1 style="text-align: center; color: blue;">wellcome to Blog app backend Coading samurai intern Assignment</h1>`)
         console.log("Wellcome blog app backend app")
     } catch (error) {
         res.send({"error":error.message})

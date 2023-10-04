@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Blog Website</title>
+    <link rel="stylesheet" href="./style/navbar.css">
+    <link rel="stylesheet" href="./style/index.css">
+    <link rel="stylesheet" href="./style/contact.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css"
+        integrity="sha384-3AB7yXWz4OeoZcPbieVW64vVXEwADiYyAEhwilzWsLw+9FgqpyjjStpPnpBO8o8S" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style/about.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <span class="navbar-toggle" id="js-navbar-toggle">
+            <i class="fas fa-bars"></i>
+        </span>
+        <a href="#" class="logo">Personal Blog Website</a>
+        <ul class="main-nav" id="js-menu">
+            <li>
+                <a href="index.html" class="nav-links">Home</a>
+            </li>
+            <li>
+                <a href="./page/blog.html" class="nav-links">Blogs</a>
+            </li>
+            <li>
+                <a href="./page/contact.html" class="nav-links">Contact</a>
+            </li>
+            <li>
+                <a href="./page/about.html" class="nav-links">About Us</a>
+            </li>
+        </ul>
+    </nav>
+    <br>
+    <br><br>
+    
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Welcome to My Personal Blog</h2>
+            <p>Explore my thoughts, stories, and ideas on various topics.</p>
+            <a href="https://www.linkedin.com/in/ashishkumarpalai/" class="cta-button">Get in Touch</a>
+        </div>
+    </section>
+    
+    <section class="features">
+        <div class="feature">
+            <h3>Feature 1</h3>
+            <p>Content Management</p>
+        </div>
+        <div class="feature">
+            <h3>Feature 2</h3>
+            <p>Dynamic Website</p>
+        </div>
+        <div class="feature">
+            <h3>Feature 3</h3>
+            <p>Responsive Design</p>
+        </div>
+    </section>
+
+    <section class="projects">
+        <h2>Projects</h2>
+        <h3>Coading Samurai Assignment</h3>
+        <div class="project">
+            <h3>Project 1:- Web-based Calculator</h3>
+            <p>The Simple Calculator Web App is a beginner-friendly web application that allows users to perform basic
+                mathematical calculations in their web browsers. This project is designed to help you learn the
+                fundamentals of web development using HTML, CSS, and JavaScript.</p>
+            <a href="https://calculator-ashishkumarpalai.netlify.app/">Project Live link</a>
+        </div>
+        <div class="project">
+            <h3>Project 2:- To-Do List Web Application</h3>
+            <p>The Simple To-Do List Web App is a beginner-friendly web application that empowers users to efficiently
+                manage their tasks and stay organized. This project provides a hands-on opportunity to learn the basics
+                of web development using HTML, CSS, and JavaScript. One of its key features is the use of local storage
+                to save tasks, ensuring that user data persists even after refreshing the page.</p>
+            <a href="https://to-do-list-web-app-ashishkumarpalai.netlify.app/">Project Live link</a>
+        </div>
+        <div class="project">
+            <h3>Project 3:- Personal Blog Website</h3>
+            <p>The Personal Blog Website project is an exciting opportunity to delve into web development, covering both
+                frontend and backend aspects while exploring content management. This project empowers you to create a
+                dynamic platform where you can share your articles, stories, and thoughts on diverse topics. </p>
+            <a href="https://personal-blog-ashishkumarpalai.netlify.app/">Project Live link</a>
+        </div>
+        <!-- Add more projects as needed -->
+    </section>
+
+
+
+    <div class="container" style="margin-top: 90px">
+        <h1>Contact Us</h1>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <footer class="footer">
+        <p class="footer-content">© 2023 - Ashish Kumar Palai, All Copyrights Reserved</p>
+    </footer>
+</body>
+
+</html>
+<script src="./script/navbar.js"></script>
+<script src="./script/index.js"></script>
+<script src="./script/contact.js"></script>

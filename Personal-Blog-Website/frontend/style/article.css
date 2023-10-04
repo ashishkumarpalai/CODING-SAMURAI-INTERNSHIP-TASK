@@ -1,0 +1,59 @@
+/* Styles for Individual Article Page (article.html) */
+#article-content {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+#article-content h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+#article-content .author-date {
+    color: #777;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+#article-content img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
+
+#article-content p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Add responsive styles for smaller screens */
+@media (max-width: 768px) {
+    #article-content {
+        padding: 10px;
+    }
+
+    #article-content h2 {
+        font-size: 24px;
+    }
+
+    #article-content .author-date {
+        font-size: 14px;
+    }
+
+    #article-content p {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+}
+
+body {
+    background: linear-gradient(to right, #ff5733, #33ff57, #5733ff);
+    animation: colorChange 5s linear infinite;
+}

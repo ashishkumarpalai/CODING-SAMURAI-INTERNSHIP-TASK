@@ -1,0 +1,184 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #ff5733, #33ff57, #5733ff);
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.header h1 {
+    margin-bottom: 10px;
+}
+
+.hero {
+    position: relative;
+    text-align: center;
+    color: black;
+}
+
+.hero img {
+    max-width: 100%;
+    height: auto;
+}
+
+.hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+}
+
+.feature {
+    text-align: center;
+}
+
+.contact {
+    background-color: #f0f0f0;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.contact form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contact input,
+.contact textarea,
+.contact button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact button {
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+}
+
+
+
+
+/* Default styles for larger screens */
+.hero {
+    padding: 100px 0;
+}
+
+.hero h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    font-size: 18px;
+}
+
+.features {
+    padding: 50px 0;
+}
+
+.feature h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.feature p {
+    font-size: 16px;
+}
+
+.blog-posts {
+    padding: 30px 0;
+}
+
+.blog-post h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.blog-post p {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+/* Media query for smaller screens (e.g., tablets and mobile phones) */
+@media screen and (max-width: 768px) {
+    .hero {
+        padding: 50px 0;
+    }
+
+    .hero h2 {
+        font-size: 28px;
+    }
+
+    .hero p {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+
+    .cta-button {
+        font-size: 16px;
+    }
+
+    .features {
+        padding: 30px 0;
+    }
+
+    .feature h3 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .feature p {
+        font-size: 14px;
+    }
+
+    .blog-posts {
+        padding: 20px 0;
+    }
+
+    .blog-post h3 {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .blog-post p {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+}
+
+
+
+
+
+

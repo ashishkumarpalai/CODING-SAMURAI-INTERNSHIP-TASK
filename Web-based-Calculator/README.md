@@ -3,6 +3,10 @@
 A simple calculator web application for basic arithmetic operations.
 
 https://calculator-ashishkumarpalai.netlify.app/
+
+### image 
+
+![Screenshot (698)](https://github.com/ashishkumarpalai/CODING-SAMURAI-INTERNSHIP-TASK/assets/112760336/af1cfa9c-6f03-47ef-b4f3-5ec15c380df0)
 ## Introduction
 
 This calculator app allows you to perform addition, subtraction, multiplication, and division calculations. It provides a user-friendly interface for basic arithmetic operations.
